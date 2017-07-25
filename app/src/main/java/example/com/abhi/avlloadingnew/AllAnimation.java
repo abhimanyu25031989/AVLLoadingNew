@@ -129,7 +129,7 @@ public class AllAnimation extends Activity {
         waveOneAnimator = ObjectAnimator.ofPropertyValuesHolder(hangoutTvOne, tvOne_X, tvOne_Y);
         waveOneAnimator.setRepeatCount(-1);
         waveOneAnimator.setRepeatMode(ValueAnimator.REVERSE);
-        waveOneAnimator.setDuration(300);
+        waveOneAnimator.setDuration(400);
         waveOneAnimator.start();
 
         PropertyValuesHolder tvTwo_Y = PropertyValuesHolder.ofFloat(hangoutTvTwo.TRANSLATION_Y, -40.0f);
